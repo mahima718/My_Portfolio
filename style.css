@@ -1,0 +1,22 @@
+/* style.css - Optional for extra personalization */
+
+body.dark {
+  background-color: #1f2937; /* Tailwind's gray-800 */
+  color: #f3f4f6; /* Tailwind's gray-100 */
+}
+
+.dark .bg-white {
+  background-color: #374151; /* Tailwind's gray-700 */
+}
+
+.dark .text-gray-600 {
+  color: #d1d5db;
+}
+
+.dark .text-gray-700 {
+  color: #e5e7eb;
+}
+
+.dark a {
+  color: #93c5fd;
+}

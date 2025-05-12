@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahima Mukati | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .typewriter-text::after {
+        content: '|';
+        animation: blink 0.8s infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+  </head>
+
+  <body class="bg-white text-gray-800 font-sans transition-all duration-300">
+
+    <!-- Navbar -->
+    <header class="bg-white shadow sticky top-0 z-50">
+      <nav class="max-w-6xl mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-blue-600">MAHIMA MUKATI</h1>
+        <ul class="flex space-x-3 text-sm sm:text-base">
+          <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+          <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+          <li><a href="#experience" class="hover:text-blue-600">Experience</a></li>
+          <li><a href="#education" class="hover:text-blue-600">Education</a></li>
+          <li><a href="#content" class="hover:text-blue-600">Content</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="flex flex-col items-center justify-center text-center py-20 px-6 bg-blue-50">
+      <img src="profile.jpg" alt="Mahima Mukati" class="w-40 h-40 rounded-full shadow-lg mb-4" />
+      <h2 class="text-3xl md:text-4xl font-semibold">
+        I am <span class="text-blue-600 typewriter-text" id="typewriter-text"></span>
+      </h2>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="max-w-4xl mx-auto py-16 px-6">
+      <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+      <p class="mb-4">I’m Mahima Mukati, a curious soul exploring tech and creativity. I'm a content creator who loves storytelling and building meaningful digital experiences.</p>
+      <h3 class="font-medium text-lg mb-2">3 Fun Facts:</h3>
+      <ul class="list-disc ml-6 space-y-2">
+        <li>Pani puri and jalebi are my soul food 🍧</li>
+        <li>I’ve hosted freshers’ events and coordinated placements</li>
+        <li>I believe in standing strong and spreading positivity 🌟</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="bg-gray-100 py-16 px-6">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-2xl font-semibold mb-6">Skills</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center">
+          <span class="bg-white rounded-xl shadow p-4">HTML5/CSS3</span>
+          <span class="bg-white rounded-xl shadow p-4">JavaScript</span>
+          <span class="bg-white rounded-xl shadow p-4">C/C++</span>
+          <span class="bg-white rounded-xl shadow p-4">Python</span>
+          <span class="bg-white rounded-xl shadow p-4">React (Basic)</span>
+          <span class="bg-white rounded-xl shadow p-4">Content Creation</span>
+          <span class="bg-white rounded-xl shadow p-4">Leadership</span>
+          <span class="bg-white rounded-xl shadow p-4">Event Management</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="max-w-5xl mx-auto py-16 px-6">
+      <h2 class="text-2xl font-semibold mb-6">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-xl p-6 shadow">
+          <h3 class="text-lg font-bold">Smart Attendance System</h3>
+          <p class="text-gray-600">Face recognition attendance using ESP32-CAM and web dashboard.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow">
+          <h3 class="text-lg font-bold">Alumni Interaction Website</h3>
+          <p class="text-gray-600">React + Firebase-based site for alumni-student connection.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="bg-gray-100 py-16 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl font-semibold mb-6">Experience</h2>
+        <ul class="space-y-4">
+          <li>
+            <h3 class="font-bold">Training & Placement Coordinator</h3>
+            <p class="text-gray-700">Led placement coordination, hosted seminars, managed recruiter relations (2022–2023)</p>
+          </li>
+          <li>
+            <h3 class="font-bold">CSI & Digital Club Member</h3>
+            <p class="text-gray-700">Organized technical events and workshops</p>
+          </li>
+          <li>
+            <h3 class="font-bold">Event Organizer</h3>
+            <p class="text-gray-700">Managed freshers’ and cultural events with 150+ attendees</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="max-w-4xl mx-auto py-16 px-6">
+      <h2 class="text-2xl font-semibold mb-6">Education</h2>
+      <div>
+        <h3 class="font-bold">B.Tech – CSE (IoT)</h3>
+        <p>Sagar Institution of Science Technology & Engineering, 2022–2026</p>
+        <p class="text-gray-600">Courses: Networking, DBMS, Web Development</p>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section id="content" class="bg-gray-100 py-16 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-2xl font-semibold mb-4">Mahima Manifests – My Content</h2>
+        <p class="mb-4">I share vlogs, tech journeys, and motivational content on YouTube & Instagram.</p>
+        <a href="https://youtube.com/@mahimamanifests" target="_blank" class="text-blue-600 font-semibold">📹 Watch My Channel</a>
+        <div class="mt-6">
+          <iframe width="350" height="200" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen class="rounded-lg shadow-lg mx-auto"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="max-w-4xl mx-auto py-16 px-6">
+      <h2 class="text-2xl font-semibold mb-6">Contact Me</h2>
+      <p class="mb-4">Got a cool project? Want to collaborate? Let’s connect!</p>
+      <ul class="space-y-2">
+        <li>📧 Email: mahimamukati45@gmail.com</li>
+        <li>🔗 LinkedIn: <a href="https://linkedin.com/in/mahima-mukati-b4623a292" target="_blank" class="text-blue-600">linkedin.com/in/mahima-mukati</a></li>
+        <li>📷 Instagram: <a href="https://instagram.com/mahimamanifests" target="_blank" class="text-blue-600">@mahimamanifests</a></li>
+        <li>🌐 GitHub: <a href="https://github.com/mahima718" target="_blank" class="text-blue-600">github.com/mahima718</a></li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-white border-t mt-12">
+      <p>Made with 💖 by Mahima Mukati</p>
+    </footer>
+
+    <!-- Theme Toggle Button -->
+    <div class="fixed bottom-4 right-4">
+      <button id="toggle-theme" class="bg-blue-600 text-white px-4 py-2 rounded-full shadow">🌙 Toggle Theme</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
